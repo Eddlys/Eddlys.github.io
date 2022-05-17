@@ -2,7 +2,7 @@
 
 ![icon.png](https://pic.rmb.bdstatic.com/bjh/96617aa1110279c1891150434f37b17e.png)
 
-# **个人博客**
+
 ## （⭐∨⭐）
 ## *星辰记*
 
@@ -15,7 +15,7 @@
 ![stars](https://badgen.net/github/stars/eddlys/eddlys.github.io?icon=github&color=4ab8a1)
 ![](https://img.shields.io/badge/bilibili-%E5%B9%B2%E6%9D%AF%F0%9F%8D%BB-pink)
 
-<br>
+
 
 <span id="busuanzi_container_site_pv" style='display:none'>
     👀 本站总访问量：<span id="busuanzi_value_site_pv"></span> 次
@@ -24,10 +24,10 @@
     | 🚴‍♂️ 本站总访客数：<span id="busuanzi_value_site_uv"></span> 人
 </span>
 
-<br>
+
 
 
 [**开启阅读**](README.md)
-[**🏹**](https://www.mlddk.top)
+[**🏹🏹🏹**](https://www.mlddk.top)
 
 

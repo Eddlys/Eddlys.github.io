@@ -15,7 +15,7 @@
 
 [2022年路由器大推荐](/Blogs/Readme.md)
 
-[[利用Docker搭建一个自己专属的邮件服务器](/Blogs/技术帖子.md)
+[利用Docker搭建一个自己专属的邮件服务器](/Blogs/技术帖子.md)
 
 [不越狱实现IOS多开教程](/Blogs/资源集合.md)
 

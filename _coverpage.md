@@ -1,5 +1,5 @@
 
-![icon.png](https://pic.rmb.bdstatic.com/bjh/96617aa1110279c1891150434f37b17e.png)
+![icon.png](/book.png)
 # **星辰记**
 
 ## （⭐∨⭐）

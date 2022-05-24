@@ -29,6 +29,8 @@ pop3和imap区别是：imap是交互式的，支持同步，也是现在主流�
 哇透它猴子，这教程还能不能写了？楼主技术菜，又不会自己编译，这就是典型的又菜又想玩，真叫人头大。没办法，只能到docker官方hub去找找咯。
 没想到这个没水的坑真找到了一个叫“码头工人邮件服务器”的镜像，还支持手臂，此镜像集成了linux著名的postfix邮件核心，部署的人还不少。
 
+![](https://github.com/Eddlys/png/raw/main/cool/c041736fbfa2f20435ff4d1a61b9216a.jpg)
+
 不过缺点是，没有集成webmail客户端和管理端ui界面，添加账号等只能命令操作。但也比较轻量化，客户端可以使用qq邮箱解决，凑合用吧！
 ———————————————————— 
 需要准备的东西： 
@@ -44,12 +46,20 @@ pop3和imap区别是：imap是交互式的，支持同步，也是现在主流�
 但有些较为复杂，参数较多的容器，比如这个邮件服务器，我们需要用到docker-compose解决。 
 安装较为简单，直接复制以下命令
 
+![](https://github.com/Eddlys/png/raw/main/cool/a3cb5495fc8506a72c58e529951a0b8d.jpg)
+
+
+
 显示出版本号，即为成功。
+
+![](https://github.com/Eddlys/png/raw/main/cool/106ba013987f502df7db9308766e37e7.jpg)
 
 ————————————————————— 
 三，启动码头工人邮件服务器 
 在任意位置新建一个目录并且记住，后续的命令必须要在这个目录下执行，这个目录将存放容器的所有数据。
 cd进这个目录，执行下面命令下载容器启动所需的文件
+
+![](https://github.com/Eddlys/png/raw/main/cool/cf321b554875cb3c7b9a4ddc060a4378.jpg)
 
 vim编辑docker-compose. yml这个文件，需要注意的地方有四个。
 容器名，不要改。

@@ -152,11 +152,17 @@ dns配置完成，等待生效。
 ![](https://github.com/Eddlys/png/raw/main/cool/23.jpg)
 
 啊偶！spam直接扣了4.3分，这纯属滑稽行为，楼主明明启用了spam的。
-没办法，只能把这个锅甩给freenom域名（楼主还真会找台阶下啊），但不影响使用。] 
+没办法，只能把这个锅甩给freenom域名（楼主还真会找台阶下啊），但不影响使用。
+
+
 ————————————————————— 
+
+
 六，总结 
 教程虽然使用了免费域名，但也没有受到歧视。往qq，gmail发件并没有进入垃圾箱，可见，互联网世界公平正义还是有的。
-————————————————————— 转自酷安"[奇点灰烬](https://www.coolapk.com/feed/32109178?shareKey=ZmU5MTJjMjBiM2FjNjI4ZGMyOGE~&shareUid=1139702&shareFrom=com.coolapk.market_11.4)"
+
+
+————————————————————— 转自酷安[奇点灰烬](https://www.coolapk.com/feed/32109178?shareKey=ZmU5MTJjMjBiM2FjNjI4ZGMyOGE~&shareUid=1139702&shareFrom=com.coolapk.market_11.4)
 
 
 

@@ -1,4 +1,4 @@
-# 博客推荐
+# 好文推荐
 
 ## 利用Docker搭建一个自己的专属邮件服务器
 ![](https://github.com/Eddlys/png/raw/main/cool/45DD36A9C4D888D5F4AC43D3A905D19E.jpg)
@@ -54,7 +54,10 @@ pop3和imap区别是：imap是交互式的，支持同步，也是现在主流�
 
 ![](https://github.com/Eddlys/png/raw/main/cool/106ba013987f502df7db9308766e37e7.jpg)
 
+
 ————————————————————— 
+
+
 三，启动码头工人邮件服务器 
 在任意位置新建一个目录并且记住，后续的命令必须要在这个目录下执行，这个目录将存放容器的所有数据。
 cd进这个目录，执行下面命令下载容器启动所需的文件
@@ -67,21 +70,37 @@ vim编辑docker-compose. yml这个文件，需要注意的地方有四个。
 域名，改为你自己的。
 配置文件，已在当前目录，老手可以改里面的参数。保存。
 
-执行下面命令启动容器并且新建账号并且生成dkim密钥，账号域名密码****改为你自己的。
+![](https://github.com/Eddlys/png/raw/main/cool/e0c11ac437a675caabe8e0f49ef714e8.jpg)
+
+执行下面命令启动容器并且新建账号并且生成dkim密钥，账号域名密码"****""改为你自己的。
 后续添加账号只需单独执行第二行。
+
+![](https://github.com/Eddlys/png/raw/main/cool/6.jpg)
 
 在当前目录下找到这个txt文件"/docker-data/dms/config/opendkim/keys/你的域名/mail. txt"。
 打开它，把括号这里面的内容复制出来，去掉所有的双引号，p那一行开始去掉换行，让其首尾相连。后续配置dns要用哈。
 
+![](https://github.com/Eddlys/png/raw/main/cool/7.jpg)
+
 容器启动后可以看到服务器起了一堆服务，不必惊慌，正常现象，我们真正用到的只有smtp和imap。
+
+![](https://github.com/Eddlys/png/raw/main/cool/8.jpg)
 
 所以，必须到乌龟壳的网页安全规则里放行25和143端口。
 
+![](https://github.com/Eddlys/png/raw/main/cool/9.jpg)
+
 ————————————————————— 
+
+
 四，DNS配置 
 本想研究一下甲骨文的反向区域解析，可没想到 上方出现付费账号提示，楼主胆小害怕出账单，所以只能放弃。
 
+![](https://github.com/Eddlys/png/raw/main/cool/10.jpg)
+
 没办法，只能配置正向解析，这里主要以CF为例，其他的dns都差不多。
+
+![](https://github.com/Eddlys/png/raw/main/cool/11.jpg)
 
 从上到下分别给大家说明一下： 
 A记录，主机名mail，指向服务器ip，容器的yml文件有说明，很好理解。
@@ -92,17 +111,45 @@ MX记录，邮件交换记录，必须设置。
 下面三个TXT记录虽说不是必须的，但非常重要。因服务器运行在公网，这三个记录可以增加服务器的“受信任”程度，特别是反垃圾箱。
 拉到最下面点这里。
 
+![](https://github.com/Eddlys/png/raw/main/cool/12.jpg)
+
 分别点击创建这三条记录。
 
+![](https://github.com/Eddlys/png/raw/main/cool/13.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/14.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/15.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/16.jpg)
+
+
 dns配置完成，等待生效。 
+
 ————————————————————— 
+
+
 五，测试 
 这里以QQ邮箱客户端为例，其他的都一样，电脑可使用foxmail，outlook等。
 添加账号
 
+![](https://github.com/Eddlys/png/raw/main/cool/17.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/18.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/19.jpg)
+
 往qq邮箱，gmail发送邮件测试。
 
+![](https://github.com/Eddlys/png/raw/main/cool/20.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/21.jpg)
+
 往权威机构发送邮件，测试分数。
+
+![](https://github.com/Eddlys/png/raw/main/cool/22.jpg)
+
+![](https://github.com/Eddlys/png/raw/main/cool/23.jpg)
 
 啊偶！spam直接扣了4.3分，这纯属滑稽行为，楼主明明启用了spam的。
 没办法，只能把这个锅甩给freenom域名（楼主还真会找台阶下啊），但不影响使用。] 

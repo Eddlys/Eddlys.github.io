@@ -7,7 +7,7 @@
 
 * 前端三件套
 
-!> HTML + CSS + JavaScript + AJAX
+> HTML + CSS + JavaScript + AJAX
 
 * 开发工具
   * [IDEA 2019.3.4](ToolBox/IDEA使用指南?id=idea-201934)

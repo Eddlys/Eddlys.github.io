@@ -40,7 +40,14 @@
 sss
 :fa fa-spinner fa-spin:
 
+...
+
 #### **这是一个选项卡插件**
+
+```
+hello world!  
+```
+
 <!-- tabs:end -->
 
 
